@@ -58,7 +58,10 @@ export function TopBar() {
       <div className="max-md:hidden">
         <Categories />
       </div>
-      <div className="flex-1 max-md:hidden">
+      <div
+        className="flex-1
+        max-md:hidden"
+      >
         <Search />
       </div>
       <img
