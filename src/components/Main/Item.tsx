@@ -26,7 +26,7 @@ export function Item(props: {
                 className="h-4"
                 src="https://bubblestore.geniebook.com/_nuxt/img/Icon Bubble.a8ba8a5.svg"
               />
-              <span className="text-sm font-black">
+              <span className="text-sm font-black line-through">
                 {props.itemDiscount.before}
               </span>
             </div>
