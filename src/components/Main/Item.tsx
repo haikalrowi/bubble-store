@@ -10,11 +10,13 @@ export function Item(props: {
   return (
     <div
       className="flex h-52 w-32 flex-col rounded-3xl bg-white shadow
-      md:h-56 md:w-36"
+      md:h-60 md:w-36
+      lg:h-72 lg:w-44"
     >
       <img
         className="size-32 rounded-t-3xl
-        md:size-36"
+        md:size-36
+        lg:size-44"
         src={props.itemImage}
       />
       <div className="flex flex-1 flex-col justify-between rounded-b-3xl p-2">
