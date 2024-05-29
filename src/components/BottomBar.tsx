@@ -10,8 +10,8 @@ function Item(props: {
       <img className="size-5" src={props.imgSrc} alt="Home" />
       <span
         className={clsx(
-          "text-xs opacity-50",
-          props.itemActive && "text-blue-900 opacity-100",
+          "text-[.625rem] opacity-50",
+          props.itemActive && "font-semibold text-blue-900 !opacity-100",
         )}
       >
         {props.itemName}
