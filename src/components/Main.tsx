@@ -8,8 +8,8 @@ function TrendingItems() {
   return (
     <div className="flex gap-4 overflow-x-auto">
       {data.main.trendingItems.map((i, i_) => (
-        <div className="p-1">
-          <Item key={i_} {...i} />
+        <div key={i_} className="p-1">
+          <Item {...i} />
         </div>
       ))}
     </div>
@@ -30,8 +30,8 @@ function MostPopular() {
   return (
     <div className="flex flex-nowrap gap-4 overflow-x-auto">
       {data.main.mostPopular.map((i, i_) => (
-        <div className="p-1">
-          <Item key={i_} {...i} />
+        <div key={i_} className="p-1">
+          <Item {...i} />
         </div>
       ))}
     </div>
