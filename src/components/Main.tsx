@@ -44,16 +44,18 @@ function MostPopular() {
 export function Main() {
   return (
     <div className="size-full">
-      <Row
-        rowTitle="Trending items"
-        rowLink={{ name: "Show all", href: "#" }}
-        rowContent={<TrendingItems />}
-      />
-      <Row
-        rowTitle="Search by categories"
-        rowContent={<SearchByCategories />}
-      />
-      <Row rowTitle="Most popular" rowContent={<MostPopular />} />
+      <div className="container mx-auto">
+        <Row
+          rowTitle="Trending items"
+          rowLink={{ name: "Show all", href: "#" }}
+          rowContent={<TrendingItems />}
+        />
+        <Row
+          rowTitle="Search by categories"
+          rowContent={<SearchByCategories />}
+        />
+        <Row rowTitle="Most popular" rowContent={<MostPopular />} />
+      </div>
       <Footer />
     </div>
   );
