@@ -4,10 +4,7 @@ export function Row(props: {
   rowContent: React.ReactNode;
 }) {
   return (
-    <div
-      className="flex flex-col gap-4 px-4 py-2
-      md:px-8 md:py-4"
-    >
+    <div className="flex flex-col gap-4 px-4 py-2">
       <div className="flex items-center justify-between">
         <span className="font-bold text-blue-900">{props.rowTitle}</span>
         {props.rowLink && (

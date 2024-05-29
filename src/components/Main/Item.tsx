@@ -21,7 +21,7 @@ export function Item(props: {
       />
       <div className="flex flex-1 flex-col justify-between rounded-b-3xl p-2">
         <div className="line-clamp-2 text-xs">{props.itemName}</div>
-        <div className="flex gap-2 p-1">
+        <div className="flex gap-2">
           {props.itemDiscount && (
             <div className="flex items-center gap-1 text-[#2aa7df] opacity-70 grayscale">
               <img

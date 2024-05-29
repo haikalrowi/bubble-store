@@ -22,7 +22,7 @@ function Item(props: {
 
 export function BottomBar() {
   return (
-    <div className="flex size-full items-center justify-around p-2">
+    <div className="flex size-full items-center justify-around">
       <Item
         imgSrc="https://bubblestore.geniebook.com/_nuxt/img/GB-bubblestore-iconset-active-home.0078654.svg"
         itemName="Home"

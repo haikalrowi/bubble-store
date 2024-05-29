@@ -49,10 +49,7 @@ function BubbleStore() {
 
 export function Footer() {
   return (
-    <div
-      className="relative bg-blue-900 px-4 py-8 text-white
-      md:px-16"
-    >
+    <div className="relative bg-blue-900 px-4 py-8 text-white">
       <div className="container mx-auto flex flex-col">
         <div className="flex flex-wrap gap-8">
           <PopularCategories />
