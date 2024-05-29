@@ -18,7 +18,10 @@ function TrendingItems() {
 
 function SearchByCategories() {
   return (
-    <div className="flex flex-wrap justify-evenly gap-4">
+    <div
+      className="flex flex-wrap gap-4
+      max-md:justify-center"
+    >
       {data.main.searchByCategories.map((c, i) => (
         <Category key={i} {...c} />
       ))}

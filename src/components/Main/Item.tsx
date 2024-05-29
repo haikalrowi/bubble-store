@@ -8,8 +8,15 @@ export function Item(props: {
   };
 }) {
   return (
-    <div className="flex h-52 w-32 flex-col rounded-3xl bg-white shadow">
-      <img className="size-32 rounded-t-3xl" src={props.itemImage} />
+    <div
+      className="flex h-52 w-32 flex-col rounded-3xl bg-white shadow
+      md:h-56 md:w-36"
+    >
+      <img
+        className="size-32 rounded-t-3xl
+        md:size-36"
+        src={props.itemImage}
+      />
       <div className="flex flex-1 flex-col justify-between rounded-b-3xl p-2">
         <div className="line-clamp-2 text-xs">{props.itemName}</div>
         <div className="flex gap-2 p-1">
