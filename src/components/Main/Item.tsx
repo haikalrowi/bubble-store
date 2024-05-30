@@ -9,7 +9,8 @@ export function Item(props: {
 }) {
   return (
     <div
-      className="flex h-52 w-32 flex-col rounded-3xl bg-white shadow
+      className="flex h-52 w-32 flex-col rounded-3xl bg-white shadow transition-all
+      hover:scale-95
       md:h-60 md:w-36
       lg:h-72 lg:w-44"
     >

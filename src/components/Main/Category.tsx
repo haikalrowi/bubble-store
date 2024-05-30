@@ -3,7 +3,10 @@ export function Category(props: {
   categoryName: string;
 }) {
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div
+      className="flex flex-col items-center gap-2 transition-all
+      hover:scale-95"
+    >
       <div className="size-20 rounded-3xl bg-white shadow-md">
         <img className="size-full" src={props.categoryImage} />
       </div>
