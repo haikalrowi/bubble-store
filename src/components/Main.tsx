@@ -44,7 +44,7 @@ function MostPopular() {
 export function Main() {
   return (
     <div className="size-full">
-      <div className="container mx-auto">
+      <div className="container mx-auto flex flex-col gap-4 p-4">
         <Row
           rowTitle="Trending items"
           rowLink={{ name: "Show all", href: "#" }}

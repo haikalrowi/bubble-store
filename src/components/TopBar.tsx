@@ -37,7 +37,7 @@ function Search() {
 
 export function TopBar() {
   return (
-    <div className="container mx-auto flex size-full items-center justify-evenly gap-4">
+    <div className="container mx-auto flex size-full items-center justify-evenly gap-4 px-4">
       <a href="/">
         <img
           className="h-4 w-32"

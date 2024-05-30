@@ -33,7 +33,7 @@ function SupportAndHelpCenter() {
 function BubbleStore() {
   return (
     <div
-      className="flex flex-col gap-2 py-8
+      className="flex flex-col gap-2
       max-md:items-center"
     >
       <img
@@ -49,8 +49,8 @@ function BubbleStore() {
 
 export function Footer() {
   return (
-    <div className="relative bg-blue-900 px-4 py-8 text-white">
-      <div className="container mx-auto flex flex-col">
+    <div className="relative bg-blue-900 text-white">
+      <div className="container mx-auto flex flex-col gap-8 px-4 py-8">
         <div className="flex flex-wrap gap-8">
           <PopularCategories />
           <SupportAndHelpCenter />
