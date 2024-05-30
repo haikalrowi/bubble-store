@@ -6,7 +6,7 @@ import { Row } from "./Main/Row";
 
 function TrendingItems() {
   return (
-    <div className="flex gap-4 overflow-x-auto">
+    <div className="flex gap-4 overflow-x-auto [scrollbar-width:none]">
       {data.main.trendingItems.map((i, i_) => (
         <div key={i_} className="p-1">
           <Item {...i} />
@@ -31,7 +31,7 @@ function SearchByCategories() {
 
 function MostPopular() {
   return (
-    <div className="flex flex-nowrap gap-4 overflow-x-auto">
+    <div className="flex gap-4 overflow-x-auto [scrollbar-width:none]">
       {data.main.mostPopular.map((i, i_) => (
         <div key={i_} className="p-1">
           <Item {...i} />
